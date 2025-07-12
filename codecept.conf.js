@@ -51,13 +51,13 @@ exports.config = {
   },
   stepTimeout: 0,
   stepTimeoutOverride: [{
-      pattern: 'wait.*',
-      timeout: 0
-    },
-    {
-      pattern: 'amOnPage',
-      timeout: 0
-    }
+    pattern: 'wait.*',
+    timeout: 0
+  },
+  {
+    pattern: 'amOnPage',
+    timeout: 0
+  }
   ],
   tests: './steps/*_test.js',
   name: 'qazando-appium-codecept'

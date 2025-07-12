@@ -19,6 +19,6 @@ Then('I see field Codigo', () => {
 });
 
 Then('I see text Aluno', () => {
-  I.waitForElement({android: 'android=new UiSelector().text("Aluno")'}, 5)
+  I.waitForElement({ android: 'android=new UiSelector().text("Aluno")' }, 5)
 });
 

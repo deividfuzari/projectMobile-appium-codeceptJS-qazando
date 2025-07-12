@@ -8,6 +8,6 @@ Scenario('test configuration', ({ I, home_page }) => {
 });
 
 Scenario('Test login Erro', ({ I }) => {
-    login_page.doLogin({password: "1234567"})
+    login_page.doLogin({ password: "1234567" })
     login_page.validateFailLogin()
 })
