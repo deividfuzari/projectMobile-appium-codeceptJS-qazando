@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tests-report-mocha": "npx codeceptjs run --reporter mochawesome",
+    "tests-with-actions": "npx codeceptjs run --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "codeceptjs": "^3.7.3",
+    "mochawesome": "^7.1.3",
     "webdriverio": "^8.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1"
   }
 }

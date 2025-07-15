@@ -1,6 +1,11 @@
 const { I } = inject();
 // Add in your custom step files
 
+Before((scenario) => {
+  if (scenario.feature && scenario.feature.title) {
+    console.log(`Iniciando Feature "${scenario.feature.title}"`);
+  }
+})
 
 Given('I fill email', () => {
   I.fillField('~email', 'teste@teste.com')
@@ -21,4 +26,10 @@ Then('I see field Codigo', () => {
 Then('I see text Aluno', () => {
   I.waitForElement({ android: 'android=new UiSelector().text("Aluno")' }, 5)
 });
+
+After((scenario) => {
+  if (scenario.feature && scenario.feature.title) {
+    console.log(`Finalizando Feature "${scenario.feature.title}"`);
+  }
+})
 
