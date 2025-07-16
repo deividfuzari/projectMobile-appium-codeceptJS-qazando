@@ -1,10 +1,13 @@
+const getName = require('../utils/libary_name')
+const getNumberRandom = require('../utils/library_number_random')
+
 Feature('Students')
 
 const { login_page, home_page } = inject()
 
 const dados = {
-    code: '0504',
-    student: 'Deivid'
+    code: getNumberRandom(),
+    student: getName()
 }
 
 BeforeSuite(()=> {
