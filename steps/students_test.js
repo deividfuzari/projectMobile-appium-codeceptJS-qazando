@@ -10,7 +10,7 @@ const dados = {
     student: getName()
 }
 
-BeforeSuite(()=> {
+BeforeSuite(() => {
     console.log('Iniciando Feature Students PageObject')
 })
 
@@ -21,6 +21,6 @@ Scenario('Adding students with succsess', () => {
     home_page.searchAndValidateStudent(dados.code, dados.student)
 })
 
-AfterSuite(()=> {
+AfterSuite(() => {
     console.log('Finalizando Feature Students PageObject')
 })

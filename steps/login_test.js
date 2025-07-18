@@ -2,7 +2,7 @@ Feature('login');
 
 const { login_page } = inject()
 
-BeforeSuite(()=> {
+BeforeSuite(() => {
     console.log('Iniciando Feature Login PageObject')
 })
 
@@ -16,6 +16,6 @@ Scenario('Test login Erro', ({ I }) => {
     login_page.validateFailLogin()
 })
 
-AfterSuite(()=> {
+AfterSuite(() => {
     console.log('Finalizado Feature Login PageObject')
 })
