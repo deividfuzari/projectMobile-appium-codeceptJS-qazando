@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2025-07-15T21:39:58.100Z",
-    "end": "2025-07-15T21:40:40.683Z",
-    "duration": 42583,
+    "start": "2025-07-19T14:38:45.015Z",
+    "end": "2025-07-19T14:39:30.156Z",
+    "duration": 45141,
     "testsRegistered": 4,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ba44ff39-4b7e-4cc6-b366-55a17ed97ad1",
+      "uuid": "d77b3e38-cfad-4230-9c21-9a7bee3ebaf7",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4f97a9e4-fef8-4b82-8393-c44044bb8a73",
+          "uuid": "5d6e1edf-8155-4c45-a9ea-3c50aed52a18",
           "title": "Login",
           "fullFile": "C:\\Users\\Deivid Fuzari\\Desktop\\projectMobile-appium-codeceptJS-qazando\\features\\basic.feature",
           "file": "\\features\\basic.feature",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "suiteSetup(suite)",
               "err": {},
-              "uuid": "a92f9af9-6708-4ee6-a749-0245e5a4ef79",
-              "parentUUID": "4f97a9e4-fef8-4b82-8393-c44044bb8a73",
+              "uuid": "46e0662b-b647-41da-80df-04cfaae9338f",
+              "parentUUID": "5d6e1edf-8155-4c45-a9ea-3c50aed52a18",
               "isHook": true,
               "skipped": false
             },
@@ -54,7 +54,7 @@
               "title": "\"before each\" hook: codeceptjs.before in \"Login\"",
               "fullTitle": "Login \"before each\" hook: codeceptjs.before in \"Login\"",
               "timedOut": false,
-              "duration": 3048,
+              "duration": 3986,
               "state": null,
               "speed": null,
               "pass": false,
@@ -63,8 +63,8 @@
               "context": null,
               "code": "setup(suite)",
               "err": {},
-              "uuid": "d2eef1d0-4a30-4c87-8eca-632a7635aece",
-              "parentUUID": "4f97a9e4-fef8-4b82-8393-c44044bb8a73",
+              "uuid": "39e76833-3c66-451e-b95e-6c4e88dc3b2f",
+              "parentUUID": "5d6e1edf-8155-4c45-a9ea-3c50aed52a18",
               "isHook": true,
               "skipped": false
             }
@@ -83,8 +83,8 @@
               "context": null,
               "code": "suiteTeardown(suite)",
               "err": {},
-              "uuid": "999c00aa-448d-4446-92c8-bd96d2c2d2dc",
-              "parentUUID": "4f97a9e4-fef8-4b82-8393-c44044bb8a73",
+              "uuid": "c07b9e9a-a679-47dc-9e7d-e5e443a01d8d",
+              "parentUUID": "5d6e1edf-8155-4c45-a9ea-3c50aed52a18",
               "isHook": true,
               "skipped": false
             },
@@ -92,7 +92,7 @@
               "title": "\"after each\" hook: codeceptjs.after in \"Login\"",
               "fullTitle": "Login \"after each\" hook: codeceptjs.after in \"Login\"",
               "timedOut": false,
-              "duration": 185,
+              "duration": 183,
               "state": null,
               "speed": null,
               "pass": false,
@@ -101,8 +101,8 @@
               "context": null,
               "code": "teardown(suite)",
               "err": {},
-              "uuid": "84138d16-16ae-417c-8457-e24225f07c18",
-              "parentUUID": "4f97a9e4-fef8-4b82-8393-c44044bb8a73",
+              "uuid": "d7621c72-7b65-417e-b8b1-b50e190a9f2f",
+              "parentUUID": "5d6e1edf-8155-4c45-a9ea-3c50aed52a18",
               "isHook": true,
               "skipped": false
             }
@@ -112,7 +112,7 @@
               "title": "login with succsess",
               "fullTitle": "Login: login with succsess",
               "timedOut": false,
-              "duration": 6441,
+              "duration": 7007,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -121,26 +121,26 @@
               "context": null,
               "code": "runSteps(child.scenario.steps)",
               "err": {},
-              "uuid": "112f95e9-1e8a-4056-802e-9349c49731da",
-              "parentUUID": "4f97a9e4-fef8-4b82-8393-c44044bb8a73",
+              "uuid": "b666d63b-c5a3-4129-a496-62b3669efc0d",
+              "parentUUID": "5d6e1edf-8155-4c45-a9ea-3c50aed52a18",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "112f95e9-1e8a-4056-802e-9349c49731da"
+            "b666d63b-c5a3-4129-a496-62b3669efc0d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 6441,
+          "duration": 7007,
           "root": false,
           "rootEmpty": false,
           "_timeout": 0
         },
         {
-          "uuid": "075e0300-8b3e-4081-a136-783bded2b34e",
+          "uuid": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
           "title": "Students",
           "fullFile": "C:\\Users\\Deivid Fuzari\\Desktop\\projectMobile-appium-codeceptJS-qazando\\steps\\students_test.js",
           "file": "\\steps\\students_test.js",
@@ -158,8 +158,8 @@
               "context": null,
               "code": "suiteSetup(suite)",
               "err": {},
-              "uuid": "73533225-af15-4080-9725-330317354f1d",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "58e78a97-a64e-4423-8543-5f033ae2be79",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": true,
               "skipped": false
             },
@@ -176,8 +176,8 @@
               "context": null,
               "code": "console.log('Iniciando Feature Students PageObject')",
               "err": {},
-              "uuid": "3f73fa48-3472-4b69-aa34-83dfd330cf30",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "7e923092-79c2-4432-a871-2cfa91bf1651",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": true,
               "skipped": false
             },
@@ -185,7 +185,7 @@
               "title": "\"before each\" hook: codeceptjs.before in \"Students\"",
               "fullTitle": "Students \"before each\" hook: codeceptjs.before in \"Students\"",
               "timedOut": false,
-              "duration": 2449,
+              "duration": 2444,
               "state": null,
               "speed": null,
               "pass": false,
@@ -194,8 +194,8 @@
               "context": null,
               "code": "setup(suite)",
               "err": {},
-              "uuid": "e24333e0-001e-4265-bd42-3d7d41a4e63b",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "9f859a87-695d-49b6-bcca-12f1a58d9477",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": true,
               "skipped": false
             }
@@ -205,7 +205,7 @@
               "title": "\"after all\" hook: AfterSuite in \"Students\"",
               "fullTitle": "Students \"after all\" hook: AfterSuite in \"Students\"",
               "timedOut": false,
-              "duration": 1,
+              "duration": 2,
               "state": null,
               "speed": null,
               "pass": false,
@@ -214,8 +214,8 @@
               "context": null,
               "code": "console.log('Finalizando Feature Students PageObject')",
               "err": {},
-              "uuid": "ba84c341-b5da-483c-ba60-9f5f1c6d0b8e",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "cce6dfe6-3a29-44ec-a0a1-811121bc3942",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": true,
               "skipped": false
             },
@@ -232,8 +232,8 @@
               "context": null,
               "code": "suiteTeardown(suite)",
               "err": {},
-              "uuid": "2456862f-1475-493c-8ede-56df0d1f45d8",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "a22f0df7-bccb-426c-9093-5e09677a3671",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": true,
               "skipped": false
             },
@@ -241,7 +241,7 @@
               "title": "\"after each\" hook: finalize codeceptjs in \"Students\"",
               "fullTitle": "Students \"after each\" hook: finalize codeceptjs in \"Students\"",
               "timedOut": false,
-              "duration": 169,
+              "duration": 174,
               "state": null,
               "speed": null,
               "pass": false,
@@ -250,8 +250,8 @@
               "context": null,
               "code": "teardown(suite)",
               "err": {},
-              "uuid": "83e03a5a-f0a4-494a-b201-84a13a327b4a",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "9a66fcbb-7c60-4e04-a995-2ef470ce09ad",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": true,
               "skipped": false
             }
@@ -261,7 +261,7 @@
               "title": "Adding students with succsess",
               "fullTitle": "Students: Adding students with succsess",
               "timedOut": false,
-              "duration": 13880,
+              "duration": 14546,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -270,26 +270,26 @@
               "context": null,
               "code": "login_page.doLogin({})\nhome_page.registerStudent(dados.code, dados.student)\nhome_page.validateCreateStudent()\nhome_page.searchAndValidateStudent(dados.code, dados.student)",
               "err": {},
-              "uuid": "0ee6d9c3-5513-4343-8af4-a669cb75708e",
-              "parentUUID": "075e0300-8b3e-4081-a136-783bded2b34e",
+              "uuid": "933e9f54-831e-4241-ad82-7e368d5452ed",
+              "parentUUID": "52fe79e5-7536-4b5f-8a58-686aac2f5abe",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0ee6d9c3-5513-4343-8af4-a669cb75708e"
+            "933e9f54-831e-4241-ad82-7e368d5452ed"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13880,
+          "duration": 14546,
           "root": false,
           "rootEmpty": false,
           "_timeout": 0
         },
         {
-          "uuid": "48057407-4d55-4e10-8db2-0cca504a4208",
+          "uuid": "cdd178f6-71da-4733-a448-787dc35aac73",
           "title": "login",
           "fullFile": "C:\\Users\\Deivid Fuzari\\Desktop\\projectMobile-appium-codeceptJS-qazando\\steps\\login_test.js",
           "file": "\\steps\\login_test.js",
@@ -307,8 +307,8 @@
               "context": null,
               "code": "suiteSetup(suite)",
               "err": {},
-              "uuid": "96ffa1c2-3cec-43b4-a235-febea9d3857d",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "1205c681-84af-43cc-b9ce-7785d3cc251c",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": true,
               "skipped": false
             },
@@ -325,8 +325,8 @@
               "context": null,
               "code": "console.log('Iniciando Feature Login PageObject')",
               "err": {},
-              "uuid": "6914896b-20f1-40fb-8dc5-5c56e5ae2728",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "9835583e-e7df-43c9-b762-fa024f5521aa",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": true,
               "skipped": false
             },
@@ -334,7 +334,7 @@
               "title": "\"before each\" hook: codeceptjs.before in \"login\"",
               "fullTitle": "login \"before each\" hook: codeceptjs.before in \"login\"",
               "timedOut": false,
-              "duration": 2445,
+              "duration": 2459,
               "state": null,
               "speed": null,
               "pass": false,
@@ -343,8 +343,8 @@
               "context": null,
               "code": "setup(suite)",
               "err": {},
-              "uuid": "adee9a9e-84a3-419e-a887-bb1e5c148fcb",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "2b8f40e0-6b82-49e0-9f73-74fea3405df2",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": true,
               "skipped": false
             }
@@ -363,8 +363,8 @@
               "context": null,
               "code": "console.log('Finalizado Feature Login PageObject')",
               "err": {},
-              "uuid": "74227c9a-3831-45b9-96e7-f5b3c3e26c3d",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "14ffa00a-921f-4fed-a057-7552c2e716fc",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": true,
               "skipped": false
             },
@@ -381,8 +381,8 @@
               "context": null,
               "code": "suiteTeardown(suite)",
               "err": {},
-              "uuid": "6ab665a8-80b1-4c16-95aa-f90fefc9f97f",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "d7fbaeb4-e7ee-46c9-88ab-969934191149",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": true,
               "skipped": false
             },
@@ -390,7 +390,7 @@
               "title": "\"after each\" hook: finalize codeceptjs in \"login\"",
               "fullTitle": "login \"after each\" hook: finalize codeceptjs in \"login\"",
               "timedOut": false,
-              "duration": 174,
+              "duration": 172,
               "state": null,
               "speed": null,
               "pass": false,
@@ -399,8 +399,8 @@
               "context": null,
               "code": "teardown(suite)",
               "err": {},
-              "uuid": "3b2aaa20-e92e-4390-b6c8-014b51788fec",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "f4241403-3cfe-4365-9338-fc350bf7748c",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": true,
               "skipped": false
             }
@@ -410,7 +410,7 @@
               "title": "Test login succsses",
               "fullTitle": "login: Test login succsses",
               "timedOut": false,
-              "duration": 5628,
+              "duration": 6035,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -419,8 +419,8 @@
               "context": null,
               "code": "I, home_page }) => {\n    login_page.doLogin({})\n    home_page.validateLoginSuccsess()",
               "err": {},
-              "uuid": "a26d9393-54ea-4151-8b2f-b32f2554ad24",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "0b7ba6da-288a-4a4c-8602-2a806cf4ca28",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": false,
               "skipped": false
             },
@@ -428,7 +428,7 @@
               "title": "Test login Erro",
               "fullTitle": "login: Test login Erro",
               "timedOut": false,
-              "duration": 5554,
+              "duration": 5515,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -437,21 +437,21 @@
               "context": null,
               "code": "I }) => {\n    login_page.doLogin({ password: \"1234567\" })\n    login_page.validateFailLogin()",
               "err": {},
-              "uuid": "81febd24-fae4-424f-af0b-75d69f96743d",
-              "parentUUID": "48057407-4d55-4e10-8db2-0cca504a4208",
+              "uuid": "d933455d-24ca-4eaa-9e1a-fe2b0a5b51da",
+              "parentUUID": "cdd178f6-71da-4733-a448-787dc35aac73",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a26d9393-54ea-4151-8b2f-b32f2554ad24",
-            "81febd24-fae4-424f-af0b-75d69f96743d"
+            "0b7ba6da-288a-4a4c-8602-2a806cf4ca28",
+            "d933455d-24ca-4eaa-9e1a-fe2b0a5b51da"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 11182,
+          "duration": 11550,
           "root": false,
           "rootEmpty": false,
           "_timeout": 0

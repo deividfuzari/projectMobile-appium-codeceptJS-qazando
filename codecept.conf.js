@@ -13,7 +13,8 @@ exports.config = {
         appPackage: 'com.qazandoapp',
         appActivity: 'MainActivity',
         deviceName: 'Pixel',
-        platformVersion: '9'
+        platformVersion: '9',
+        // browserName: 'Chrome'
       }
     }
   },
