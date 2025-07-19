@@ -1,3 +1,6 @@
+const serverBoot = require('./server/bootstrap')
+const serverTear = require('./server/teardown')
+
 exports.config = {
   output: './output',
   helpers: {
@@ -24,9 +27,13 @@ exports.config = {
     home_page: './pages/home.page.js'
   },
   mocha: {},
-  bootstrap: null,
+  async bootstrap() {
+    await serverBoot.start()
+  },
+  async teardown() {
+    await serverTear.stop()
+  },
   timeout: null,
-  teardown: null,
   hooks: [],
   gherkin: {
     features: './features/*.feature',

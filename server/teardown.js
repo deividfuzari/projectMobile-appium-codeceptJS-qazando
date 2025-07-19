@@ -1,4 +1,6 @@
 
-module.exports = async function () {
-    console.log('teardown no server.js')
+module.exports = {
+    stop: function () {
+        console.log('teardown no server.js')
+    }
 }

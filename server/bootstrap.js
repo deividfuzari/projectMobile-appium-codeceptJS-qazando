@@ -1,4 +1,6 @@
 
-module.exports = async function () {
-    console.log('bootstrep no server.js')
+module.exports = {
+    start: function () {
+        console.log('bootstrep no server.js')
+    }
 }
