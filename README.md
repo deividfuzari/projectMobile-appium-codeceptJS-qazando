@@ -50,4 +50,17 @@ Projeto desenvolvido durante o curso da Qazando para automação de testes em ap
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/deividfuzari/projectMobile-appium-codeceptJS-qazando.git
+
+2. Instale as dependências:
+
+  ```bash
+npm install
+```
+3. Configure o Appium e o dispositivo/emulador.
+
+4. Execute os testes com tag (exemplo):
+
+```bash
+npx codeceptjs run --grep @login
+
