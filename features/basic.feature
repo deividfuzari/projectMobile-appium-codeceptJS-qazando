@@ -1,4 +1,4 @@
-@login_bdd
+@bdd_login
 Feature: Login
 
   # isso explica o que a feature vai fazer
@@ -12,7 +12,7 @@ Feature: Login
   # é o que vai dar valor de negocio, o objetivo da feature nosso exemplo é acessar o sistema
   Para acessar o sistema
 
-  @login_succsess_bdd
+  @bdd_login_succsess
   Scenario: login with succsess
     Given I fill email
     And I fill password

@@ -9,6 +9,7 @@ BeforeSuite(() => {
 Scenario('Test login succsses', ({ I, home_page }) => {
     login_page.doLogin({})
     home_page.validateLoginSuccsess()
+    home_page.swipeFromHome()
 }).tag('@login_succsess')
 
 Scenario('Test login Erro', ({ I }) => {

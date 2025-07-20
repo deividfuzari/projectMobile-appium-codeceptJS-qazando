@@ -36,5 +36,10 @@ module.exports = {
     validateLoginSuccsess() {
         I.waitForElement({ android: this.elementsText.text_student }, 5)
         I.seeElement(this.fields.code)
+    },
+
+    swipeFromHome() {
+        I.performSwipe({ x: 300, y: 1100 }, { x: 300, y: 250 })
+        I.wait(5)
     }
 }
