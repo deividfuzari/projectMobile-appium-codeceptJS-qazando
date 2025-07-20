@@ -1,7 +1,7 @@
 const getName = require('../utils/libary_name')
 const getNumberRandom = require('../utils/library_number_random')
 
-Feature('Students')
+Feature('Students').tag('@students')
 
 const { login_page, home_page } = inject()
 
@@ -19,7 +19,7 @@ Scenario('Adding students with succsess', () => {
     home_page.registerStudent(dados.code, dados.student)
     home_page.validateCreateStudent()
     home_page.searchAndValidateStudent(dados.code, dados.student)
-})
+}).tag('@students_add')
 
 AfterSuite(() => {
     console.log('Finalizando Feature Students PageObject')
